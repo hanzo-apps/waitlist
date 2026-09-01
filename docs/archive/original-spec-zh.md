@@ -322,7 +322,7 @@ class VWaitlist extends HTMLElement {
     // 注入样式
     const style = document.createElement('style');
     style.textContent = `
-      :host { display: block; font-family: sans-serif; }
+      :host { display: block; font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
       /* ... Tailwind CSS 编译后的最小集 ... */
     `;
     this.shadowRoot.appendChild(style);
